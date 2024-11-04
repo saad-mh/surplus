@@ -3,6 +3,7 @@ import { ThemeProvider } from '@mui/material';
 import { theme } from './styles/theme';
 import Layout from './components/layout/Layout';
 import AppRoutes from './routes';
+import './App.css';
 
 function App() {
   return (
