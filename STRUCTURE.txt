@@ -1,0 +1,55 @@
+surplus/
+├── server/                  # Backend server
+│   ├── src/
+│   │   ├── config/         # Configuration files
+│   │   │   └── database.js
+│   │   ├── middleware/     # Express middleware
+│   │   │   └── errorHandler.js
+│   │   ├── routes/        # API routes
+│   │   │   └── index.js
+│   │   ├── utils/         # Utility functions
+│   │   │   └── logger.js
+│   │   └── index.js       # Main server entry
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── web/                    # Web client (Vite + React)
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── layout/
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   ├── Layout.jsx
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   └── Sidebar.jsx
+│   │   │   ├── common/
+│   │   │   ├── marketplace/
+│   │   │   └── donations/
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Marketplace.jsx
+│   │   │   ├── Donations.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   └── NotFound.jsx
+│   │   ├── hooks/
+│   │   ├── store/
+│   │   │   └── index.js
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── assets/
+│   │   ├── styles/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── public/
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+├── mobile/                 # React Native mobile app (structure TBD)
+│
+├── shared/                 # Shared code between web and mobile
+│
+├── .gitignore
+├── .gitattributes
+├── LICENSE
+├── README.md
+└── roadmap.md 
