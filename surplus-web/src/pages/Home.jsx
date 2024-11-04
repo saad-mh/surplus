@@ -40,6 +40,7 @@ function Home() {
               variant="contained" 
               color="primary"
               sx={{ mt: 2 }}
+              href="/marketplace"
             >
               Browse Items
             </Button>
