@@ -60,7 +60,17 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
    - Install client dependencies: `cd client && npm install`
    - Install mobile dependencies: `cd mobile && npm install`
 3. Set up environment variables
-4. Start the development server
+4. Configure your environment variables with your:
+   - MongoDB URI
+   - Firebase credentials
+   - Google Maps API key
+   - Other server-specific variables
+
+5. Start the development server
+ `cd server`
+   - Start the server: `npm run dev`
+   - Start the web client: `cd client && npm run dev`
+   - Start the mobile app: `cd mobile && npx react-native run-android` or `npx react-native run-ios`
 
 
 
