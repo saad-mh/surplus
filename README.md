@@ -65,12 +65,17 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
    - Firebase credentials
    - Google Maps API key
    - Other server-specific variables
+5. Start the backend server
+- `cd server`
+- `npm run dev`
 
-5. Start the development server
- `cd server`
+6. Start the development server
+   - `cd server`
    - Start the server: `npm run dev`
    - Start the web client: `cd client && npm run dev`
    - Start the mobile app: `cd mobile && npx react-native run-android` or `npx react-native run-ios`
+
+
 
 
 
@@ -115,6 +120,47 @@ We welcome contributions to Surplus! Please follow these steps:
 6. Open a Pull Request
 
 
-## Testing
 
-Run the test suites:
+## Documentation
+
+- [API Documentation](https://youtu.be/dQw4w9WgXcQ?si=_XUT20tuup-fX-z_)
+- [Architecture Overview](docs/architecture.md)
+- [Development Guide](docs/development.md)
+- [Deployment Guide](docs/deployment.md)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to all our contributors
+- Special thanks to our partner organizations
+- Icons provided by [FontAwesome](https://fontawesome.com)
+- UI components inspired by [Material Design](https://material.io)
+
+## Contact
+
+- Project Link: [https://github.com/saad-mh/surplus](https://github.com/saad-mh/surplus)
+- Website: [get rickrolled](https://youtu.be/dQw4w9WgXcQ?si=_XUT20tuup-fX-z_)
+- Email: vexe@duck.com
+
+## Project Status
+
+Current Version: 0.0.1-beta
+
+## Support
+
+If you need help or have questions:
+1. Check our [Documentation](docs/)
+2. Open an [Issue](https://github.com/yourusername/surplus/issues)
+3. Join our [Discord Community](https://discord.gg/surplus)
+4. Email our support team at (g0ne@googlegroups.com)
+
+## Roadmap
+
+See our [Roadmap](roadmap.md) for planned features and improvements.
+
+## Security
+
+Found a security vulnerability? Please email security@surplus-app.com instead of opening a public issue.
