@@ -89,20 +89,21 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
 - Redis for caching
 
 ### Web Frontend
-- React.js
+- Vite + React Native
 - Redux Toolkit
 - React Query
 - Styled Components
 - Material-UI
 
 ### Mobile App
-- React Native
+- Vite + React Native
 - React Navigation
 - Native Base
 - Redux Toolkit
 - React Query
 
 ### Infrastructure
+- Firebase for authentication and database
 - AWS/GCP for hosting
 - CloudFront/Firebase for CDN
 - GitHub Actions for CI/CD
