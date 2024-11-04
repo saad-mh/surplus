@@ -56,7 +56,9 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
 
 1. Clone the repository
 2. Install dependencies
-'''cd server'''
+   - Install server dependencies: `npm install`
+   - Install client dependencies: `cd client && npm install`
+   - Install mobile dependencies: `cd mobile && npm install`
 3. Set up environment variables
 4. Start the development server
 
