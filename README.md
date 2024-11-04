@@ -54,4 +54,55 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
 
 ### Installation
 
-1. Clone the repository 
+1. Clone the repository
+2. Install dependencies
+'''cd server'''
+3. Set up environment variables
+4. Start the development server
+
+
+
+## Tech Stack
+
+### Backend
+- Node.js & Express
+- MongoDB
+- Firebase Authentication
+- WebSocket for real-time features
+- Redis for caching
+
+### Web Frontend
+- React.js
+- Redux Toolkit
+- React Query
+- Styled Components
+- Material-UI
+
+### Mobile App
+- React Native
+- React Navigation
+- Native Base
+- Redux Toolkit
+- React Query
+
+### Infrastructure
+- AWS/GCP for hosting
+- CloudFront/Firebase for CDN
+- GitHub Actions for CI/CD
+- Docker for containerization
+
+## Contributing
+
+We welcome contributions to Surplus! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+
+## Testing
+
+Run the test suites:
