@@ -1,18 +1,20 @@
-import { Box, Container } from '@mui/material';
 import Navbar from './Navbar';
+import { Box } from '@mui/material';
 
 function Layout({ children }) {
   return (
-    <Box sx={{ 
-      minHeight: '100vh',
-      display: 'flex',
-      flexDirection: 'column',
-      bgcolor: 'background.default'
-    }}>
+    <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
       <Navbar />
-      <Container component="main" sx={{ flex: 1, py: 4 }}>
+      <Box 
+        component="main" 
+        sx={{ 
+          flexGrow: 1,
+          marginTop: '64px', // Height of the AppBar
+          width: '100%'
+        }}
+      >
         {children}
-      </Container>
+      </Box>
     </Box>
   );
 }

@@ -25,16 +25,16 @@ function Marketplace() {
   const items = [
     {
       id: 1,
-      title: "Fresh Vegetables Bundle",
-      price: "$15.99",
+      title: "Small Television",
+      price: "free",
       image: "https://placehold.co/300x200",
-      category: "vegetables",
-      description: "Assorted fresh vegetables from local farmers"
+      category: "electronics",
+      description: "A small television"
     },
     {
       id: 2,
       title: "Organic Fruit Pack",
-      price: "$12.99",
+      price: "free",
       image: "https://placehold.co/300x200",
       category: "fruits",
       description: "Selection of seasonal organic fruits"
@@ -42,7 +42,7 @@ function Marketplace() {
     {
       id: 3,
       title: "Bakery Surplus",
-      price: "$8.99",
+      price: "free",
       image: "https://placehold.co/300x200",
       category: "bakery",
       description: "Fresh bread and pastries from local bakery"

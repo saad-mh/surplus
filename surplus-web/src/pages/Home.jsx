@@ -1,4 +1,5 @@
 import { Box, Typography, Button, Grid } from '@mui/material';
+import { Link as RouterLink } from 'react-router-dom';
 
 function Home() {
   return (
@@ -40,7 +41,8 @@ function Home() {
               variant="contained" 
               color="primary"
               sx={{ mt: 2 }}
-              href="/marketplace"
+              component={RouterLink}
+              to="/marketplace"
             >
               Browse Items
             </Button>

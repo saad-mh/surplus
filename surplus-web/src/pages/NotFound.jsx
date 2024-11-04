@@ -10,10 +10,10 @@ function NotFound() {
       mt: 8 
     }}>
       <Typography variant="h1" sx={{ mb: 2 }}>
-        404
+        ligma?
       </Typography>
       <Typography variant="h4" sx={{ mb: 4 }}>
-        Page Not Found
+        ligma balls
       </Typography>
       <Button 
         variant="contained" 
