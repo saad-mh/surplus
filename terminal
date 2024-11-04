@@ -1,0 +1,24 @@
+surplus/
+├── server/         # Backend server
+├── web/            # Web client (Vite + React)
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   ├── layout/
+│   │   │   ├── marketplace/
+│   │   │   └── donations/
+│   │   ├── pages/
+│   │   ├── hooks/
+│   │   ├── store/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── assets/
+│   │   └── styles/
+│   ├── public/
+│   └── index.html
+├── mobile/         # React Native mobile app
+├── shared/         # Shared utilities and types
+├── docs/           # Documentation
+├── .github/        # GitHub workflows
+├── README.md
+└── roadmap.md 

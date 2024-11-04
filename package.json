@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/helmet": "^0.0.48"
+  },
+  "dependencies": {
+    "express-rate-limit": "^7.4.1"
+  }
+}
