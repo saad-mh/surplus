@@ -25,6 +25,8 @@ function Auth0ProviderWithNavigate({ children }) {
         redirect_uri: redirectUri
       }}
       onRedirectCallback={onRedirectCallback}
+      useRefreshTokens={true}
+      cacheLocation="localstorage"
     >
       {children}
     </Auth0Provider>

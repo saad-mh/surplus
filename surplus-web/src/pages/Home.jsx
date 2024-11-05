@@ -27,8 +27,7 @@ function Home() {
         sx={{ 
           bgcolor: 'primary.main', 
           color: 'white',
-          py: 8,
-          mb: 6
+          py: 6
         }}
       >
         <Container maxWidth="lg">
@@ -57,7 +56,7 @@ function Home() {
       </Box>
 
       {/* Features Section */}
-      <Container maxWidth="lg" sx={{ mb: 6 }}>
+      <Container maxWidth="lg" sx={{ mt: 6 }}>
         <Grid container spacing={4} justifyContent="center">
           {features.map((feature, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
@@ -90,7 +89,7 @@ function Home() {
       </Container>
 
       {/* Impact Section */}
-      <Box sx={{ bgcolor: 'grey.100', py: 6, mb: 6 }}>
+      <Box sx={{ bgcolor: 'grey.100', py: 6, mt: 6 }}>
         <Container maxWidth="lg">
           <Grid container spacing={4} alignItems="center">
             <Grid item xs={12} md={6}>
@@ -143,7 +142,7 @@ function Home() {
       </Box>
 
       {/* Call to Action */}
-      <Container maxWidth="md" sx={{ textAlign: 'center', mb: 6 }}>
+      <Container maxWidth="md" sx={{ textAlign: 'center', my: 6 }}>
         <Typography variant="h3" component="h2" gutterBottom>
           Ready to Make a Difference?
         </Typography>
@@ -179,5 +178,6 @@ function Home() {
     </Box>
   );
 }
+
 
 export default Home;
