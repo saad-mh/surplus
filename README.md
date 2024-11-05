@@ -40,7 +40,6 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
 - Geolocation services
 - Push notifications
 - Responsive web and mobile design
-- Offline capability
 
 ## Getting Started
 
@@ -50,6 +49,7 @@ Surplus is a dual-purpose platform that combines a sustainable marketplace for p
 - MongoDB
 - React Native development environment (for mobile)
 - Firebase account
+- Auth0 client ID, domain
 - Google Maps API key
 
 ### Installation
@@ -121,14 +121,6 @@ We welcome contributions to Surplus! Please follow these steps:
 6. Open a Pull Request
 
 
-
-## Documentation
-
-- [API Documentation](https://youtu.be/dQw4w9WgXcQ?si=_XUT20tuup-fX-z_)
-- [Architecture Overview](docs/architecture.md)
-- [Development Guide](docs/development.md)
-- [Deployment Guide](docs/deployment.md)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -144,7 +136,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Project Link: [https://github.com/saad-mh/surplus](https://github.com/saad-mh/surplus)
 - Website: [get rickrolled](https://youtu.be/dQw4w9WgXcQ?si=_XUT20tuup-fX-z_)
-- Email: vexe@duck.com
+- Email: g0ne@googlegroups.com
 
 ## Project Status
 
@@ -154,7 +146,7 @@ Current Version: 0.0.1-beta
 
 If you need help or have questions:
 1. Check our [Documentation](docs/)
-2. Open an [Issue](https://github.com/yourusername/surplus/issues)
+2. Open an [Issue](https://github.com/vexk/surplus/issues)
 3. Join our [Discord Community](https://discord.gg/surplus)
 4. Email our support team at (g0ne@googlegroups.com)
 
