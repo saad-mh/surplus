@@ -4,6 +4,10 @@ import { Box, Typography, Avatar, Paper } from '@mui/material';
 function Profile() {
   const { user } = useAuth0();
 
+  console.log('Full user object:', user);
+  console.log('App metadata:', user?.['https://vague.us.auth0.com/app_metadata']);
+  console.log('User type:', user?.['https://vague.us.auth0.com/app_metadata']?.userType);
+
   return (
     <Box sx={{ p: 4 }}>
       <Paper sx={{ p: 4, maxWidth: 600, mx: 'auto' }}>

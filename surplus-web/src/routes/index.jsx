@@ -9,7 +9,7 @@ import ContactUs from '../pages/ContactUs';
 import { ProtectedRoute } from '../auth/ProtectedRoute';
 import LoaderTest from '../pages/LoaderTest';
 import RestaurantDashboard from '../pages/RestaurantDashboard';
-
+import BusinessRoute from '../components/auth/BusinessRoute';
 function AppRoutes() {
   return (
     <Routes>
@@ -30,9 +30,9 @@ function AppRoutes() {
       <Route 
         path="/dashboard" 
         element={
-          <ProtectedRoute requiresBusiness>
+          <BusinessRoute>
             <RestaurantDashboard />
-          </ProtectedRoute>
+          </BusinessRoute>
         } 
       />
       <Route path="*" element={<NotFound />} />
