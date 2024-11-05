@@ -135,7 +135,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 - Project Link: [https://github.com/saad-mh/surplus](https://github.com/saad-mh/surplus)
-- Website: [get rickrolled](https://youtu.be/dQw4w9WgXcQ?si=_XUT20tuup-fX-z_)
+- Website: [Surplus](https://surplus-psi.vercel.app/)
 - Email: g0ne@googlegroups.com
 
 ## Project Status
@@ -145,10 +145,8 @@ Current Version: 0.0.1-beta
 ## Support
 
 If you need help or have questions:
-1. Check our [Documentation](docs/)
-2. Open an [Issue](https://github.com/vexk/surplus/issues)
-3. Join our [Discord Community](https://discord.gg/surplus)
-4. Email our support team at (g0ne@googlegroups.com)
+1. Join our [Discord Community](https://discord.gg/TCFAJkmV5Q)
+2. Email our support team at (g0ne@googlegroups.com)
 
 ## Roadmap
 
@@ -156,4 +154,4 @@ See our [Roadmap](roadmap.md) for planned features and improvements.
 
 ## Security
 
-Found a security vulnerability? Please email security@surplus-app.com instead of opening a public issue.
+Found a security vulnerability? Please email g0ne+security@googlegroups.com instead of opening a public issue.
