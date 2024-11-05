@@ -11,11 +11,10 @@ function App() {
   return (
     <Auth0Provider {...auth0Config}>
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
+        
           <Layout>
             <AppRoutes />
           </Layout>
-        </BrowserRouter>
       </ThemeProvider>
     </Auth0Provider>
   );

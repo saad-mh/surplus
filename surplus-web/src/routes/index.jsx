@@ -8,6 +8,7 @@ import GetInvolved from '../pages/GetInvolved';
 import ContactUs from '../pages/ContactUs';
 import { ProtectedRoute } from '../auth/ProtectedRoute';
 import LoaderTest from '../pages/LoaderTest';
+import RestaurantDashboard from '../pages/RestaurantDashboard';
 
 function AppRoutes() {
   return (
@@ -26,6 +27,14 @@ function AppRoutes() {
         } 
       />
       <Route path="/test/loader" element={<LoaderTest />} />
+      <Route 
+        path="/dashboard" 
+        element={
+          <ProtectedRoute requiresBusiness>
+            <RestaurantDashboard />
+          </ProtectedRoute>
+        } 
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );
