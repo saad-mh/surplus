@@ -21,7 +21,7 @@ function FoodItemsList({ status }) {
       quantity: 5,
       unit: 'portions',
       expiryDate: '2024-03-20 18:00',
-      price: 4.99,
+      price: 3,
       status: 'active'
     },
     // Add more items...
@@ -46,7 +46,7 @@ function FoodItemsList({ status }) {
               <TableCell>{item.name}</TableCell>
               <TableCell>{`${item.quantity} ${item.unit}`}</TableCell>
               <TableCell>{item.expiryDate}</TableCell>
-              <TableCell>${item.price}</TableCell>
+              <TableCell>₹{item.price}</TableCell>
               <TableCell>
                 <Chip 
                   label={item.status} 

@@ -4,7 +4,7 @@ function DashboardStats() {
   const stats = [
     { label: 'Active Listings', value: '12' },
     { label: 'Items Sold', value: '45' },
-    { label: 'Total Revenue', value: '$234.50' },
+    { label: 'Total Revenue', value: '₹2347.50' },
     { label: 'Food Saved (kg)', value: '67' }
   ];
 
